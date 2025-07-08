@@ -48,6 +48,13 @@ body {
     border-top-right-radius: 10px;
 }
 
+input[type="text"]::placeholder {
+    font-size: 4rem;
+    text-align: end;
+    padding-right: 1.5rem;
+    color: antiquewhite;
+}
+
 .output-div input[type="text"]:active {
     background-color: #363e4aca;
 }
@@ -96,6 +103,7 @@ body {
     color: whitesmoke;
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.969);
     cursor: pointer;
+    border: none;
 }
 
 .btn:hover {
@@ -109,6 +117,8 @@ body {
     font-size: 1.5rem;
     background-color: #222831;
     color: whitesmoke;
+    border: none;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.969);
 }
 
 .dif-btn:hover {
