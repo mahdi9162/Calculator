@@ -8,7 +8,7 @@
 
 body {
     background-color: black;
-    
+
 }
 
 .container {
@@ -84,7 +84,7 @@ body {
     display: flex;
     gap: 1rem;
     justify-content: center;
-} 
+}
 
 .btn {
     height: 80px;
@@ -96,6 +96,8 @@ body {
     color: whitesmoke;
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.969);
     cursor: pointer;
+    /* outline: none; */
+    border: none;
 }
 
 .btn:hover {
@@ -109,6 +111,8 @@ body {
     font-size: 1.5rem;
     background-color: #222831;
     color: whitesmoke;
+    border: none;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.969);
 }
 
 .dif-btn:hover {
